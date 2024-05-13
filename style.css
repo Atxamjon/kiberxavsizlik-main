@@ -1,0 +1,34 @@
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 34px;
+}
+
+.link {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+.s {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  transition: all 0.2s;
+  color: #ff0000;
+}
+
+.links {
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.links a {
+  font-size: 15px;
+}

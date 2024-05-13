@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mening kiberxavfsizlik saytim</title>
+    <style>
+      .container {
+        font-family: Arial, sans-serif;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      ul li {
+        text-decoration: none;
+        list-style: none;
+      }
+
+      .logo a {
+        color: #424141;
+        font-size: 24px;
+        text-decoration: none;
+      }
+
+      .burger-menu {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .link {
+        margin-right: 20px;
+        color: #333;
+        text-decoration: none;
+      }
+
+      @media (max-width: 767px) {
+        .logo a {
+          font-size: 20px;
+        }
+
+        .burger-menu {
+          display: block;
+        }
+
+        .links {
+          flex-wrap: wrap;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease-out;
+        }
+
+        .links.show {
+          max-height: 300px; /* Высота меню, когда оно открыто */
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Заголовок -->
+    <header>
+      <div class="logo">
+        <a href="#"><i class="fa-solid fa-shield-halved"></i>Kiberxavfsizlik</a>
+      </div>
+      <div class="burger-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav class="links">
+        <a href="./cybersecurity1.html" class="link">Kiberxavfsizlik haqida</a>
+        <a href="./cybersecurity2.html" class="link">Nima uchun bu kerak?</a>
+        <a href="./Hujjatlar.html" class="link">Hujjatlar</a>
+        <a href="./Xizmatlar.html" class="link">Xizmatlar</a>
+        <a href="./Karyera.html" class="link">Karyera</a>
+        <a href="./Kurs.html" class="link">Kurs</a>
+        <a href="./Talim.html" class="link">Ta'lim</a>
+        <a href="./klub.html" class="link">Kiberxavfsizlik klubi</a>
+        <a href="./boglanish.html" class="link">Bog'lanish</a>
+        <a href="https://csec.uz/uz/" class="link">Veb-Sayt</a>
+        <a href="./support.html" class="link">Qo'llab-quvvatlash</a>
+        <a href="./cybersecurityProfil.html" class="link">Profil</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="content">
+        <div class="info-block">
+          <h2>Kiberxavfsizlik nima?</h2>
+          <p>
+            Kiberxavfsizlik-bu quyidagilarga qaratilgan chora-tadbirlar va
+            amaliyotlar majmui kompyuter tizimlari, tarmoqlari va ma'lumotlarini
+            ruxsatsiz himoya qilish - kirish, ma'lumotlarning tarqalishi va
+            boshqa tahdidlar.
+          </p>
+          <p>
+            Zamonaviy texnologiyalar va internetning rivojlanishi o'sish bilan
+            bog'liq axborot xavfsizligi sohasidagi xatarlar. Kiberjinoyatchilar
+            tashkilotlarga hujum qilish uchun turli xil usul va vositalardan
+            foydalaning va xususiy foydalanuvchilar.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h2>Kiberxavfsizlikning asosiy tamoyillari</h2>
+          <ul>
+            <li>
+              Autentifikatsiya: foydalanuvchi va qurilma autentifikatsiyasi.
+            </li>
+            <li>
+              Avtorizatsiya: rollarga muvofiq kirish huquqini berish va
+              vakolatlar.
+            </li>
+            <li>
+              Shifrlash: uzatish va saqlash paytida ma'lumotlarni himoya qilish.
+              Shifrlash ma'lumotni ruxsatsiz kirishdan himoya qilishga imkon
+              beradi uni shifrlangan shaklga aylantirish orqali faqat maxsus
+              kalit bilan o'qing.
+            </li>
+            <li>
+              Monitoring: tizimdagi voqealarni doimiy ravishda kuzatib borish va
+              tahlil qilish. Monitoring o'z vaqtida aniqlash va javob berishga
+              imkon beradi potentsial xavfsizlik tahdidlari.
+            </li>
+            <li>
+              Zaxira: ma'lumotlarning zaxira nusxalarini yaratish qayta tiklash.
+              Muntazam zaxira nusxalari muhim ahamiyatga ega ma'lumotlar
+              xavfsizligi strategiyasining bir qismi, chunki yo'qotilgan yoki
+              buzilgan taqdirda ma'lumotni tiklashga imkon beradi.
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h2>Ma'lumotlaringizni qanday himoya qilish kerak?</h2>
+          <ol>
+            <li>
+              Kuchli parollar va ikki faktorli autentifikatsiyadan foydalaning.
+              Harflar, raqamlar va kombinatsiyani o'z ichiga olgan murakkab
+              parollarni tanlang maxsus belgilar. Ikki faktorli
+              autentifikatsiyani faollashtiring qo'shimcha himoya qatlamini
+              ta'minlash uchun o'z hisoblarini taqdim etdi.
+            </li>
+            <li>
+              Dasturiy ta'minot va operatsion tizimlarni yangilang. O'rnatilgan
+              barcha yangilanishlarni muntazam tekshirib turing dasturlar va
+              operatsion tizimlar, chunki ular ko'pincha quyidagilarni o'z
+              ichiga oladi xavfsizlik zaifliklarini tuzatish.
+            </li>
+            <li>
+              Xatlarda shubhali havolalar va qo'shimchalarni ochmang. Bo'ling
+              havolalar va qo'shimchalarni ochishda ehtiyot bo'ling, ayniqsa
+              ular kelgan bo'lsa notanish jo'natuvchilardan yoki shubhali
+              ko'rinishdan.
+            </li>
+            <li>
+              Antivirus dasturidan foydalaning. O'rnatish ishonchli antivirus
+              dasturi va muntazam ravishda zararli dasturlarni aniqlash va olib
+              tashlash uchun uni yangilang.
+            </li>
+            <li>
+              Muhim ma'lumotlarni muntazam ravishda zaxiralang. Qiling muhim
+              fayllar va ma'lumotlarni tashqi fayllarga muntazam ravishda
+              zaxiralash ommaviy axborot vositalari yoki bulutli saqlash uchun,
+              agar yo'qolsa yoki ma'lumotlarning buzilishi siz uni qayta
+              tiklagan bo'lishingiz mumkin.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
